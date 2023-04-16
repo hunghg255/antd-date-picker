@@ -857,7 +857,7 @@ tr > .rc-picker-dropdown .rc-picker-cell-in-view.rc-picker-cell-range-hover-star
   background: #e6f4ff;
 }
 .rc-picker-dropdown .rc-picker-date-panel .rc-picker-body {
-  padding: 8px 18px;
+  padding: 10px;
 }
 .rc-picker-dropdown .rc-picker-date-panel .rc-picker-content {
   width: 252px;

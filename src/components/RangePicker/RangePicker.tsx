@@ -2,6 +2,7 @@ import * as React from 'react';
 import { RangePicker as RcRangePicker } from 'rc-picker';
 import dayjsGenerateConfig from 'rc-picker/lib/generate/dayjs';
 import enUS from 'rc-picker/lib/locale/en_US';
+import IconClear from '@/components/Icon/IconClear';
 
 const Icon = () => (
   <svg
@@ -22,6 +23,8 @@ const RangePicker = (props: any) => (
     generateConfig={dayjsGenerateConfig}
     locale={enUS}
     separator={<Icon />}
+    clearIcon={<IconClear />}
+    placeholder={['Start date', 'End date']}
     {...props}
   />
 );
